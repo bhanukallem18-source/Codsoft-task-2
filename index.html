@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarQuest | Explore the Solar System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌌 SolarQuest</h1>
+    <p>Explore the wonders of our Solar System — click on a planet to learn more.</p>
+  </header>
+
+  <div class="space">
+    <div class="stars" id="stars"></div>
+    <div class="sun"></div>
+    <div class="orbit mercury-orbit"><div class="planet mercury" data-planet="Mercury"></div></div>
+    <div class="orbit venus-orbit"><div class="planet venus" data-planet="Venus"></div></div>
+    <div class="orbit earth-orbit"><div class="planet earth" data-planet="Earth"></div></div>
+    <div class="orbit mars-orbit"><div class="planet mars" data-planet="Mars"></div></div>
+    <div class="orbit jupiter-orbit"><div class="planet jupiter" data-planet="Jupiter"></div></div>
+    <div class="orbit saturn-orbit"><div class="planet saturn" data-planet="Saturn"></div></div>
+    <div class="orbit uranus-orbit"><div class="planet uranus" data-planet="Uranus"></div></div>
+    <div class="orbit neptune-orbit"><div class="planet neptune" data-planet="Neptune"></div></div>
+  </div>
+
+  <div id="planetModal" class="modal">
+    <div class="modal-content" id="modalContent">
+      <span class="close">&times;</span>
+    </div>
+  </div>
+
+  <footer>Designed & Developed by <b>Adharsh Kondapuram</b> © 2025 🚀</footer>
+  <script src="script.js"></script>
+</body>
+</html>
